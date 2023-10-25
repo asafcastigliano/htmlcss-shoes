@@ -8,16 +8,17 @@ footer{
 
 }
 
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 .menu{
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
     margin-top: 20px;
-}
-
-.col-menu{
-    position: sticky;
-    top: 0;
 }
 
 .menu li {
